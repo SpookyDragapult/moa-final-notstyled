@@ -105,7 +105,7 @@ function Profile() {
             <>
               <h3 className="username text-danger">{user?.name}</h3>
               <p className="pale">{user?.email}</p>
-              <p className="pale">{ID}</p>
+              
             </>
           )}
           <button className="btn btn-outline-danger btn-sm mt-2">Edit Profil</button>
@@ -137,17 +137,28 @@ function Profile() {
         >
           <h5 className="text-danger">Tiket Aktif</h5>
           {/* Tickets Section */}
-          <div className="d-flex flex-wrap">
+          <div className="mt-4 px-3" id='ticket-container'>
     {bookedTickets.length > 0 ? (
         bookedTickets.map((ticket, index) => (
-            <div className="card m-2" key={index} style={{ width: '18rem' }}>
-                
-                <div className="card-body">
-                    <h5 className="card-title">{ticket.movieTitle}</h5>
+            <div className="" key={index}>
+                 
+                <div className="ticket-card d-flex mb-3">
+                <div className="bg-danger text-light p-3 rounded-start">
+                <h5>{user?.name}</h5>
+                <p>Bioskop: {ticket.theater}</p>
+                <p>Jam: {ticket.schedule}</p>
+              </div>
+              <div className="bg-light text-dark p-3 rounded-end w-100">
+                <h3>{ticket.movieTitle}</h3>
+                <p>Seats: {ticket.seat.join(', ')}</p>
+                <p>Kode Transaksi: <span className="fw-bold">230191</span></p>
+                <p>
+                  Kode QR: <img src="https://via.placeholder.com/40" alt="QR" />
+                </p>
+              </div>
                     
-                    <p className="card-text">Seats: {ticket.seat.join(', ')}</p>
-                    <p className="card-text">Total: Rp. {ticket.ticketPrice}</p> {/* Adjusted to show ticketPrice */}
                 </div>
+                
             </div>
         ))
     ) : (

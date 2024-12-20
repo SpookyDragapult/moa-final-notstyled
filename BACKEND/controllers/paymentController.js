@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 exports.processBooking = async (req, res) => {
     const {
         userId, movieTitle, theater, seat, ticketPrice, paymentMethod,
-        eWallet, creditCard, bank
+        eWallet, creditCard, bank, schedule
     } = req.body;
 
     try {
@@ -16,6 +16,7 @@ exports.processBooking = async (req, res) => {
         const newBooking = new Booking({
             movieTitle,
             theater,
+            schedule,
             seat,
             ticketPrice,
             paymentMethod,

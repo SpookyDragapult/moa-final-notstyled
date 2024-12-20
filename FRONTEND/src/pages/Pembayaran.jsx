@@ -57,6 +57,7 @@ function Pembayaran () {
           
             const bookingData = {
               userId,
+              schedule,
               movieTitle: movieTitle,
               theater: theater,  // Change 'theater' to 'movieTitle' (or adjust as necessary)
               seat: selectedSeats,  // 'selectedSeats' will map to 'seat'

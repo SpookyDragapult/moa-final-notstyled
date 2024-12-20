@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const bookingSchema = new mongoose.Schema({
     movieTitle: { type: String, required: false },
+    schedule: { type: String, required: false },
     theater: { type: String, required: true },
     seat: { type: [String], required: true },
     ticketPrice: { type: Number, required: true },
