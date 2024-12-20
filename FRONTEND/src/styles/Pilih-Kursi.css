@@ -1,0 +1,325 @@
+body {
+    background-color: #151515;
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+}
+.sidebar {
+    background-color: #151515;
+    height: calc(100vh - 60px);
+    padding-top: 40px;
+    position: fixed;
+    top: 60px;
+    width: 200px;
+    transition: transform 0.3s ease;
+    z-index: 5;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+    border-radius: 15px;
+}
+.sidebar a:hover {
+    background-color: #2c2c2c;
+}
+.sidebar a.active {
+    background-color: #d43b3b;
+    color: white;
+}
+.header {
+    background-color: #151515;
+    padding: 20 50 30 30;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header .logo {
+    font-family: "Sixtyfour Convergence", serif;
+    color: #A91D3A;
+    font-size: 30px;
+}
+.header .notif {
+    font-size: 15px;
+    margin-right: 30px;
+}
+.header .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 20em;
+}
+.header .search-bar input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    margin-left: 10px;
+}
+.header .user-info {
+    display: flex;
+    align-items: center;
+}
+.header .user-info i {
+    margin-right: 10px;
+}
+.main-content {
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 70px; /* Adjust this value based on the height of the header */
+}
+
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+.hamburger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+.cover-container {
+    position: relative;
+    width: 100%; /* Adjust to the width of the cover image */
+    max-width: 800px; /* Optional: set a maximum width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block; /* Makes sure no extra spaces are around the image */
+  }
+  
+  .profile-container {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    top: 130%; /*this here is used to overlap*/
+    transform: translateX(-50%);
+    display: flex;
+    width: 500px;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .profile-description {
+    color: white;
+  
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-description h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .profile-description p {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+
+  .cover-video iframe {
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+  
+  .schedule {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .theatre {
+    margin-bottom: 20px;
+  }
+  .theatre h5 {
+    background-color: #2b2b2b;
+    color: #f14d58;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .time-button {
+    background-color: #2b2b2b;
+    border: 1px solid #555;
+    color: white;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .time-button:hover {
+    background-color: #f14d58;
+    border-color: #f14d58;
+  }
+  
+  .poster img {
+    max-height: 400px;
+  }
+
+.nav-color {
+    color: white;
+}
+
+.nav-color:hover {
+    color: #A91D3A;
+}
+
+.theatre-card {
+    border: 1px solid white;
+}
+
+.btn-jam {
+    border: 1px solid white;
+    color: white;
+    background-color: #151515;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-jam:hover {
+    background-color: white;
+    color: #151515;
+    border: 1px solid white;
+}
+
+.star {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.rating {
+    font-size: 1.5rem;
+}
+.available {
+    background-color: gold;
+    color: #151515;
+    text-align: center;
+    border: 1px solid gold;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pembayaran {
+    color: white;
+}
+
+.pembayaran:hover {
+    color: #A91D3A;
+}
+
+.text {
+    text-align: center;
+}
+
+.bioskop {
+    max-width: 700px;
+    align-self: center;
+    
+}
+.layar {
+    width: 455px !important;
+    margin-left: 20px;
+}
+.detail-kursi {
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .header {
+        margin-left: -30px;
+    }
+    .header .logo {
+        font-size: 25px;
+    }
+    .header .search-bar {
+        width: 18em;
+    }
+    .bioskop {
+        max-width: 100%
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        margin-left: 0;
+    }
+    .sidebar {
+        transform: translateX(-100%);
+        top: 0;
+        height: 100vh;
+    }
+    .sidebar.active {
+        transform: translateX(0);
+    }
+    .header {
+        left: 0;
+        padding: 10px;
+    }
+    .header h2 {
+        display: none;
+    }
+    .header .notif {
+        font-size: 10px;
+    }
+    .header .search-bar {
+        padding: 5px;
+        width: 200px;
+    }
+    .header .search-bar input {
+        font-size: 0.875rem;
+    }
+    .header .user-info i {
+        font-size: 1.5rem;
+    }
+    .header .user-info span {
+        display: none;
+    }
+    .main-content {
+        margin-left: 0;
+        margin-top: 60px;
+        padding: 10px;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .sidebar a {
+        margin: 10px 0; /* Reduce margin for all links */
+    }
+    .sidebar a.active {
+        margin-top: 40px; /* Add more margin to push the first link down */
+    }
+    .bioskop {
+        max-width: 100%;
+    }
+    .layar {
+        width: 375px !important;
+    }
+}
+
+@media (max-width: 578px) {
+    .layar {
+        width: 375px !important;
+    }
+}
+

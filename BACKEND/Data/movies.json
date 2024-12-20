@@ -1,0 +1,207 @@
+[
+    {
+      "src": "/images/avenger_age_of_ultron.jpg",
+      "title": "Avengers: Age of Ultron",
+      "status": "nowplaying",
+      "description": "The Avengers fight to save the world from Ultron, a technological enemy bent on human extinction.",
+      "producer": "Kevin Feige",
+      "director": "Joss Whedon",
+      "writer": "Joss Whedon",
+      "rating": 4.5,
+      "votes": 250000,
+      "videoTrailer": "/videos/avengers_age_of_ultron_trailer.mp4",
+      "cast": [
+        { "name": "Robert Downey Jr.", "image": "/images/robert_downey_jr.jpeg" },
+        { "name": "Chris Hemsworth", "image": "/images/chris_hemsworth.jpg" }
+      ],
+      "duration": "2h 21m"
+    },
+    {
+      "src": "/images/avengers_infinity_war.jpg",
+      "title": "Avengers: Infinity War",
+      "status": "nowplaying",
+      "description": "The Avengers and their allies try to stop Thanos from collecting all six Infinity Stones.",
+      "producer": "Kevin Feige",
+      "director": "Anthony and Joe Russo",
+      "writer": "Christopher Markus, Stephen McFeely",
+      "rating": 4.8,
+      "votes": 350000,
+      "videoTrailer": "/videos/avengers_infinity_war_trailer.mp4",
+      "cast": [
+        { "name": "Chris Hemsworth", "image": "/images/chris_hemsworth.jpg" },
+        { "name": "Tom Hiddleston", "image": "/images/tom_hiddleston.jpg" }
+      ],
+      "duration": "2h 29m"
+    },
+    {
+      "src": "/images/mario.jpg",
+      "title": "Mario",
+      "status": "upcoming",
+      "description": "The world of Mario and his friends comes to life in an epic animated adventure.",
+      "producer": "Shigeru Miyamoto",
+      "director": "Aaron Horvath, Michael Jelenic",
+      "writer": "Matthew Fogel",
+      "rating": 4.2,
+      "votes": 120000,
+      "videoTrailer": "/videos/mario_trailer.mp4",
+      "cast": [
+        { "name": "Chris Pratt", "image": "/images/chris_pratt.jpg" },
+        { "name": "Anya Taylor-Joy", "image": "/images/anya_taylor_joy.jpg" }
+      ],
+      "duration": "1h 42m"
+    },
+    {
+      "src": "/images/minion.jpg",
+      "title": "Minions",
+      "status": "nowplaying",
+      "description": "The Minions search for a new villainous master in their quest for world domination.",
+      "producer": "Chris Meledandri",
+      "director": "Kyle Balda, Pierre Coffin",
+      "writer": "Brian Lynch",
+      "rating": 4.0,
+      "votes": 90000,
+      "videoTrailer": "/videos/minions_trailer.mp4",
+      "cast": [
+        { "name": "Sandra Bullock", "image": "/images/sandra_bullock.jpg" },
+        { "name": "Jon Hamm", "image": "/images/jon_hamm.jpg" }
+      ],
+      "duration": "1h 31m"
+    },
+    {
+      "src": "/images/sonic2.jpg",
+      "title": "Sonic the Hedgehog 2",
+      "status": "upcoming",
+      "description": "Sonic teams up with his friends to stop Dr. Robotnik and his new ally Knuckles.",
+      "producer": "Tim Miller",
+      "director": "Jeff Fowler",
+      "writer": "Pat Casey, Josh Miller",
+      "rating": 4.4,
+      "votes": 180000,
+      "videoTrailer": "/videos/sonic2_trailer.mp4",
+      "cast": [
+        { "name": "Jim Carrey", "image": "/images/jim_carrey.jpg" },
+        { "name": "Ben Schwartz", "image": "/images/ben_schwartz.jpg" }
+      ],
+      "duration": "2h 2m"
+    },
+    {
+      "src": "/images/captain_marvel.jpg",
+      "title": "Captain Marvel",
+      "status": "nowplaying",
+      "description": "Carol Danvers becomes one of the universe's most powerful heroes while joining the fight against a galactic war.",
+      "producer": "Kevin Feige",
+      "director": "Anna Boden, Ryan Fleck",
+      "writer": "Anna Boden, Ryan Fleck",
+      "rating": 4.1,
+      "votes": 220000,
+      "videoTrailer": "/videos/captain_marvel_trailer.mp4",
+      "cast": [
+        { "name": "Brie Larson", "image": "/images/brie_larson.jpg" },
+        { "name": "Samuel L. Jackson", "image": "/images/samuel_l_jackson.jpg" }
+      ],
+      "duration": "2h 3m"
+    },
+    {
+      "src": "/images/john_wick_chapter_four.jpg",
+      "title": "John Wick: Chapter Four",
+      "status": "nowplaying",
+      "description": "John Wick faces his biggest challenge yet, fighting for survival against a powerful global network of assassins.",
+      "producer": "Basil Iwanyk",
+      "director": "Chad Stahelski",
+      "writer": "Shay Hatten, Michael Finch",
+      "rating": 4.7,
+      "votes": 250000,
+      "videoTrailer": "/videos/john_wick_chapter_four_trailer.mp4",
+      "cast": [
+        { "name": "Keanu Reeves", "image": "/images/keanu_reeves.jpg" },
+        { "name": "Donnie Yen", "image": "/images/donnie_yen.jpg" }
+      ],
+      "duration": "2h 49m"
+    },
+    {
+      "src": "/images/john_wick_chapter_three.jpg",
+      "title": "John Wick: Chapter Three – Parabellum",
+      "status": "nowplaying",
+      "description": "John Wick is on the run after killing a member of the international assassin's guild, and has a $14 million price on his head.",
+      "producer": "Basil Iwanyk",
+      "director": "Chad Stahelski",
+      "writer": "Derek Kolstad",
+      "rating": 4.6,
+      "votes": 220000,
+      "videoTrailer": "/videos/john_wick_chapter_three_trailer.mp4",
+      "cast": [
+        { "name": "Keanu Reeves", "image": "/images/keanu_reeves.jpg" },
+        { "name": "Halle Berry", "image": "/images/halle_berry.jpg" }
+      ],
+      "duration": "2h 10m"
+    },
+    {
+      "src": "/images/interstellar.jpg",
+      "title": "Interstellar",
+      "status": "nowplaying",
+      "description": "A team of explorers travel through a wormhole in space to ensure humanity's survival.",
+      "producer": "Emma Thomas",
+      "director": "Christopher Nolan",
+      "writer": "Jonathan Nolan, Christopher Nolan",
+      "rating": 4.9,
+      "votes": 400000,
+      "videoTrailer": "/videos/interstellar_trailer.mp4",
+      "cast": [
+        { "name": "Matthew McConaughey", "image": "/images/matthew_mcconaughey.jpg" },
+        { "name": "Anne Hathaway", "image": "/images/anne_hathaway.jpg" }
+      ],
+      "duration": "2h 49m"
+    },
+    {
+      "src": "/images/moana.jpg",
+      "title": "Moana",
+      "status": "nowplaying",
+      "description": "A young Polynesian girl sets sail across the ocean to save her island and discover her destiny.",
+      "producer": "Osnat Shurer",
+      "director": "Ron Clements, John Musker",
+      "writer": "Jared Bush",
+      "rating": 4.7,
+      "votes": 250000,
+      "videoTrailer": "/videos/moana_trailer.mp4",
+      "cast": [
+        { "name": "Auli'i Cravalho", "image": "/images/auli_cravalho.jpg" },
+        { "name": "Dwayne Johnson", "image": "/images/dwayne_johnson.jpg" }
+      ],
+      "duration": "1h 47m"
+    },
+    {
+      "src": "/images/moana_two.jpg",
+      "title": "Moana Two",
+      "status": "upcoming",
+      "description": "Moana returns to the sea to face new challenges in the epic adventure that follows her rise as a leader.",
+      "producer": "Osnat Shurer",
+      "director": "Ron Clements, John Musker",
+      "writer": "Jared Bush",
+      "rating": 4.6,
+      "votes": 150000,
+      "videoTrailer": "/videos/moana_two_trailer.mp4",
+      "cast": [
+        { "name": "Auli'i Cravalho", "image": "/images/auli_cravalho.jpg" },
+        { "name": "Dwayne Johnson", "image": "/images/dwayne_johnson.jpg" }
+      ],
+      "duration": "1h 45m"
+    },
+    {
+      "src": "/images/joker_folie_a_deux.jpg",
+      "title": "Joker: Folie a Deux",
+      "status": "upcoming",
+      "description": "Joker teams up with a mysterious new companion in this dark, musical sequel to the 2019 film.",
+      "producer": "Todd Phillips",
+      "director": "Todd Phillips",
+      "writer": "Scott Silver, Todd Phillips",
+      "rating": 4.9,
+      "votes": 350000,
+      "videoTrailer": "/videos/joker_folie_a_deux_trailer.mp4",
+      "cast": [
+        { "name": "Joaquin Phoenix", "image": "/images/joaquin_phoenix.jpg" },
+        { "name": "Lady Gaga", "image": "/images/lady_gaga.jpg" }
+      ],
+      "duration": "2h 15m"
+    }
+  ]
+  
