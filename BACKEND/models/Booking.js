@@ -5,7 +5,7 @@ const bookingSchema = new mongoose.Schema({
     schedule: { type: String, required: false },
     theater: { type: String, required: true },
     seat: { type: [String], required: true },
-    ticketPrice: { type: Number, required: true },
+    totalPrice: { type: Number, required: true },
     paymentMethod: { type: String, required: false },
     eWallet: { type: String, required: false },
     creditCard: {

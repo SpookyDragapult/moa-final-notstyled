@@ -151,6 +151,7 @@ function Profile() {
               <div className="bg-light text-dark p-3 rounded-end w-100">
                 <h3>{ticket.movieTitle}</h3>
                 <p>Seats: {ticket.seat.join(', ')}</p>
+                <p>Total Harga: {ticket.totalPrice}</p>
                 <p>Kode Transaksi: <span className="fw-bold">230191</span></p>
                 <p>
                   Kode QR: <img src="https://via.placeholder.com/40" alt="QR" />

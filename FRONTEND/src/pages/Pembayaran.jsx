@@ -25,6 +25,7 @@ function Pembayaran () {
    const [showModal, setShowModal] = useState(false);
  
    const userId = localStorage.getItem('userId');
+   const totalPrice = selectedSeats.length * ticketPrice;
 
 
 
@@ -61,7 +62,7 @@ function Pembayaran () {
               movieTitle: movieTitle,
               theater: theater,  // Change 'theater' to 'movieTitle' (or adjust as necessary)
               seat: selectedSeats,  // 'selectedSeats' will map to 'seat'
-               ticketPrice,
+               totalPrice,
               paymentMethod: paymentDetails.method,  // 'method' inside 'paymentDetails' maps to 'paymentMethod'
               eWallet: paymentDetails.wallet,  // If it's an E-Wallet, send 'wallet' here
               creditCard: paymentDetails.cardDetails,  // If it's Credit Card, send 'cardDetails' here

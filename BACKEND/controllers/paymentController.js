@@ -3,12 +3,12 @@ const mongoose = require('mongoose');
 
 exports.processBooking = async (req, res) => {
     const {
-        userId, movieTitle, theater, seat, ticketPrice, paymentMethod,
+        userId, movieTitle, theater, seat, totalPrice, paymentMethod,
         eWallet, creditCard, bank, schedule
     } = req.body;
 
     try {
-        if (!seat || !ticketPrice || !paymentMethod) {
+        if (!seat || !totalPrice || !paymentMethod) {
             return res.status(400).json({ message: 'Missing required fields' });
         }
 
@@ -18,7 +18,7 @@ exports.processBooking = async (req, res) => {
             theater,
             schedule,
             seat,
-            ticketPrice,
+            totalPrice,
             paymentMethod,
             eWallet,
             creditCard,
