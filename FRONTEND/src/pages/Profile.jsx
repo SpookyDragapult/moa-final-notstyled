@@ -70,6 +70,17 @@ function Profile() {
     setActiveTab(tab);
 };
 
+//logout
+const handleLogout = () => {
+  // Clear user-related data
+  localStorage.removeItem('userId'); // Clear user ID or other data
+  localStorage.removeItem('authToken'); // If using a token, clear it
+
+  // Redirect to the login page
+  navigate('/login');
+};
+
+
     // FUngsi handle back
     const handleBack = () =>  {
         // Cek state dari lokasi sebelumnya
@@ -109,6 +120,7 @@ function Profile() {
             </>
           )}
           <button className="btn btn-outline-danger btn-sm mt-2">Edit Profil</button>
+          <button className="btn btn-outline-danger btn-sm mt-2" onClick={handleLogout}>Logout</button>
         </div>
 
         {/* Tabs */}
